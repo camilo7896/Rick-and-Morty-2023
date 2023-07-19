@@ -1,0 +1,41 @@
+.title{
+    color: green;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(2,0,36);
+background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(62,62,62,1) 44%);
+}
+.containerCard{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 2);
+
+}
+
+.img{
+    width: auto;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.info{
+    height: max-content;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    flex-direction: column;
+}
+.info h2{
+    color: rgb(21, 255, 0);
+}

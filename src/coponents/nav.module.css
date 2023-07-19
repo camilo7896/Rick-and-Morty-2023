@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    list-style: none;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 255, 13);
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul li{
+    padding: 5px;
+    list-style: none;
+}
