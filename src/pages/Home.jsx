@@ -31,10 +31,7 @@ export default function Home() {
     ConexionApi();
   }, [paginacion]);
 
-  const actualizarPersonajes = (data) => {
-    setPersonajes((prevPersonajes) => [...prevPersonajes, ...data]);
-  };
-
+ 
   // Evento de estado paginacion
   const paginarAdelante = () => {
     setPaginacion((prevPage) => prevPage + 1);
