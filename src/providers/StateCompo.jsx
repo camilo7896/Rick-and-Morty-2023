@@ -5,10 +5,14 @@ import { MyContext } from "../contexts/Mycontext";
  const StateCompo = ({ children }) => {
 
     const [personajes, setPersonajes] = useState([]);
+    const [tablaPersonaje, settablaPersonaje] = useState([]);
+    const [buscar, setBuscar] = useState([]);
+     // Estado de paginación
+   const [paginacion, setPaginacion] = useState(1);
     
 
     return (
-   <MyContext.Provider value={{personajes, setPersonajes }}>
+   <MyContext.Provider value={{personajes, setPersonajes,buscar,setBuscar,tablaPersonaje, settablaPersonaje,paginacion, setPaginacion}}>
     {children}
    </MyContext.Provider>
   )

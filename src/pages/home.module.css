@@ -1,36 +1,49 @@
-.title{
-    color: green;
-}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: rgb(2,0,36);
+    background: rgb(136, 136, 136);
 background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(62,62,62,1) 44%);
 }
 .containerCard{
     margin: 10px;
     padding: 10px;
-    width: auto;
+    width: 200px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     background-color: rgb(2, 2, 2);
-
 }
-
+.containerCard:hover{
+    border-color: #39ff14; /* Color verde neón */
+    box-shadow: 0 0 7px #39ff14; /* Sombra verde neón */
+}
+.description{
+    display: flex;
+   flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #39ff14;
+}
+strong{
+    color: #39ff14;
+    list-style: circle;
+}
 .img{
-    width: auto;
+    width: 170px;
     border-radius: 15px;
     margin: 10px;
 }
 
 .info{
     height: max-content;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     justify-content:start;
@@ -39,3 +52,57 @@ background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(62,62,62,1) 44%);
 .info h2{
     color: rgb(21, 255, 0);
 }
+.containerInput{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .input:focus {
+    border-color: #39ff14; /* Color verde neón */
+    box-shadow: 0 0 5px #39ff14; /* Sombra verde neón */
+  }
+  .bannerFooter{
+    display: flex;
+    justify-content: center;
+  }
+  .bannerFooter img{
+    width: 200px;
+  }
+
+  /* Estilos de botones de paginacion */
+  .containerPaginacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .containerPaginacion button{
+    margin: 10px;
+  }
+
+  /* Estilos de botones de filtrados */
+  .containerFiltrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    margin: 4px;
+    border-radius: 7px;
+  }
+  .btn:focus{
+    border-color: #39ff14; /* Color verde neón */
+    box-shadow: 0 0 5px #39ff14; /* Sombra verde neón */
+  }

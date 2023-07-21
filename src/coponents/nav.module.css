@@ -11,6 +11,11 @@
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(0, 255, 13);
 }
+.logo:hover{
+    border-color: #39ff14; /* Color verde neón */
+    box-shadow: 0 0 5px #39ff14; /* Sombra verde neón */
+  
+}
 
 .menu ul{
     display: flex;
@@ -19,4 +24,11 @@
 .menu ul li{
     padding: 5px;
     list-style: none;
+    text-decoration: none;
+    color: #00ff0d;
+}
+
+.menu ul li:hover{
+   color: #39ff14; 
+   text-decoration: none;
 }
